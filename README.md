@@ -7,7 +7,7 @@ A small project, with a few examples of turning LINQ expressions into JavaScript
 
 ### Example
     var sum = _dynamicService.CreateFunction<int, int, int>((a, b) => a + b);  
-    var script = _dynamicService.CreateScript(() => sum, () => divide);  
+    var script = _dynamicService.CreateScript(() => sum);  
 
 Outputs:  
 
